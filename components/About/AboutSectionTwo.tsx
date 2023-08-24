@@ -21,29 +21,32 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Carga tu información
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Inicio simplificado. Obten tu diagnostico de mercado en minutos.
+                  Segmentación de carga impulsada por AI. 
+                  Soporte en la definición de requerimientos y opciones. 
+                  Complementación y limpieza de información para encontrar las mejores ofertas de suministro.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Análisis y comparaciones
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Herramientas para cuantificar el riesgo, entenderlo y compararlo de manera apropiada. 
+                  Simplificamos la preparación de información para ofertas a la medida. 
+
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Contratación y monitoreo
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Acceso a la información y herramientas de seguimiento para coordinar los procesos de contratación, 
+                  cumplimientos técnicos y regulatorios desde un solo lugar. Seguimiento al desempeño del contrato durante su duración.
                 </p>
               </div>
             </div>

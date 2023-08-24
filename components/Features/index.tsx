@@ -11,8 +11,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Finding, securing and procuring energy is resource intensive"
-            paragraph="Generative AI powering procurement of energy"
+            title="Encontrar y entender opciones de suministro eléctrico es riesgoso, tardado y complejo"
+            paragraph="Soluciones impulsadas por AI para minimizar contratiempos"
             center
           />
 

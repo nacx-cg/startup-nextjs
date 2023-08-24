@@ -54,14 +54,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src=""
+                  src="/images/logo/logo-w-text-no-background.png"
                   alt="BULBO"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src=""
+                  src="/images/logo/logo-w-text-no-background.png"
                   alt="BULBO"
                   width={140}
                   height={30}
@@ -163,7 +163,7 @@ const Header = () => {
                   Sign Up
                 </Link>
                 <div>
-                  <ThemeToggler />
+                  
                 </div>
               </div>
             </div>
