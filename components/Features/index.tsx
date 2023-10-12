@@ -11,12 +11,12 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Encontrar y entender opciones de suministro eléctrico es riesgoso, tardado y complejo"
-            paragraph="Soluciones impulsadas por AI para minimizar contratiempos"
+            title="Le quitamos el riesgo a encontrar y evalúar el suministro eléctrico"
+            paragraph="Aplicamos AI y amplico conocimiento del mercado electrico para minimizar contratiempos"
             center
           />
 
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-3 lg:grid-cols-3">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}

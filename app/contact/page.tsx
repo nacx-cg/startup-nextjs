@@ -5,13 +5,12 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Acerca de nosotros"
+        description="Dejanos tu contacto y te llamamos a la brevedad."
       />
 
       <Contact />
     </>
   );
 };
-
 export default ContactPage;

@@ -1,6 +1,19 @@
+"use client";
 import Link from "next/link";
+import { useState } from 'react';
+import FetchRpu from "./FetchRpu";
+import { Button } from "@tremor/react";
 
 const Hero = () => {
+  const [rpu, setRpu] = useState(''); // state to hold the rpu input value
+  const handleRpuChange = (e) => {
+    // only allow numeric input and limit to 11 characters
+    const value = e.target.value.replace(/[^0-9]/g, '');
+    if (value.length <= 12) {
+      setRpu(value);
+    }
+  };
+
   return (
     <>
       <section
@@ -15,19 +28,18 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Procura de energía. Decisiones claras. Proceso simple.
+                Encuentra y evalúa opciones de suministro eléctrico rápido y simple
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Transparente, rápido y sencillo
+                Obten un reporte inicial del mercado eléctrico en minutos solo con tu Número de Servicio o RPU
                 </p>
                 <div className="flex flex-col items-left justify-left space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="https://bulbolabs.com"
-                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  <button 
+                      onClick={() => window.location.href = "https://tally.so/r/mVPY2E"}
+                      className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Empieza tu análisis sin costo
-                  </Link>
-                  
+                      Conecta con nosotros
+                  </button>
                 </div>
               </div>
             </div>

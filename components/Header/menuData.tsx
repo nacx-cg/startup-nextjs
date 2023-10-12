@@ -9,71 +9,49 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "About",
+    title: "Sobre nosotros",
     path: "/about",
     newTab: false,
   },
   
   {
     id: 3,
-    title: "Contact",
-    path: "/contact",
-    newTab: false,
-  },
-  {
-    id: 4,
-    title: "Pages",
+    title: "Soluciones",
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "About Page",
+        title: "Procura de energía",
         path: "/about",
         newTab: false,
       },
       {
         id: 42,
-        title: "Contact Page",
+        title: "Data",
         path: "/contact",
         newTab: false,
       },
       {
         id: 43,
-        title: "Blog Grid Page",
+        title: "Desarrollo y despliegue de algoritmos",
         path: "/blog",
         newTab: false,
       },
       {
-        id: 44,
-        title: "Blog Sidebar Page",
-        path: "/blog-sidebar",
-        newTab: false,
-      },
-      {
-        id: 45,
-        title: "Blog Details Page",
-        path: "/blog-details",
-        newTab: false,
-      },
-      {
-        id: 46,
-        title: "Sign In Page",
-        path: "/signin",
-        newTab: false,
-      },
-      {
-        id: 47,
-        title: "Sign Up Page",
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 48,
-        title: "Error Page",
-        path: "/error",
+        id: 43,
+        title: "Monitoreo de energía",
+        path: "/blog",
         newTab: false,
       },
     ],
+    
+  },
+  {
+    id: 4,
+    title: "Contacto",
+    path: "/contact",
+    newTab: false,
+    
   },
 ];
 export default menuData;

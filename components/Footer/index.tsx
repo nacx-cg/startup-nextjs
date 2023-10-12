@@ -29,7 +29,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Procura de energia simple y efectiva
+                  Usamos AI para facilitar el acceso al mercado eléctrico mayorista
                 </p>
                 <div className="flex items-center">
                   <a

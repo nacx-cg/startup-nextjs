@@ -1,4 +1,5 @@
 import NewsLatterBox from "./NewsLatterBox";
+import Script from 'next/script'
 
 const Contact = () => {
   return (
@@ -20,56 +21,23 @@ const Contact = () => {
               <form>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
-                    <div className="mb-8">
-                      <label
-                        htmlFor="name"
-                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
-                      >
-                        Nombre
-                      </label>
-                      <input
-                        type="text"
-                        placeholder="Enter your name"
-                        className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
-                      />
-                    </div>
+
                   </div>
-                  <div className="w-full px-4 md:w-1/2">
-                    <div className="mb-8">
-                      <label
-                        htmlFor="email"
-                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
-                      >
-                        Dirección Email
-                      </label>
-                      <input
-                        type="email"
-                        placeholder="Dirección de email"
-                        className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
-                      />
-                    </div>
-                  </div>
+
                   <div className="w-full px-4">
                     <div className="mb-8">
-                      <label
-                        htmlFor="message"
-                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
-                      >
-                        Tu mensaje
-                      </label>
-                      <textarea
-                        name="message"
-                        rows={5}
-                        placeholder="Compartenos tu mensaje"
-                        className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
-                      ></textarea>
+                      <iframe data-tally-src="https://tally.so/embed/mVPY2E?alignLeft=1&hideTitle=1&dynamicHeight=1"
+                      loading="lazy" width="100%" height="300" title="Contacto">
+
+                      </iframe>
+                          <Script
+                              id="tally-js"
+                              src="https://tally.so/widgets/embed.js"
+                              
+                          />
                     </div>
                   </div>
-                  <div className="w-full px-4">
-                    <button className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                      Envíar
-                    </button>
-                  </div>
+
                 </div>
               </form>
             </div>
@@ -78,8 +46,11 @@ const Contact = () => {
            
           </div>
         </div>
+        
       </div>
+      
     </section>
+    
   );
 };
 

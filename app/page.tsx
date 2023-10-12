@@ -1,3 +1,4 @@
+
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
@@ -8,21 +9,26 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
+import Head from 'next/head';
 
 import { Inter } from "@next/font/google";
+import { useEffect } from 'react';
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+  export default function Home() {
   return (
+    
+    
     <>
+      
       <ScrollUp />
       <Hero />
       <Features />
-
       <AboutSectionOne />
       <AboutSectionTwo />
       <Contact />
+
     </>
   );
 }
