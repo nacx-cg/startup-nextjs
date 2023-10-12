@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from 'react';
 import FetchRpu from "./FetchRpu";
-import { Button } from "@tremor/react";
+
 
 const Hero = () => {
   const [rpu, setRpu] = useState(''); // state to hold the rpu input value
