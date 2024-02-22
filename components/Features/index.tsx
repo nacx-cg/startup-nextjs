@@ -12,7 +12,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Le quitamos el riesgo a encontrar y evalúar el suministro eléctrico"
-            paragraph="Aplicamos AI y amplico conocimiento del mercado electrico para minimizar contratiempos"
+            paragraph="Hacemos accesibles y claras las decisiones con herramientas digitales"
             center
           />
 

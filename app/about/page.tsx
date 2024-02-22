@@ -7,7 +7,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="Sobre nosotros"
-        description="Una compañia de soluciones tecnologicas para el sector energía."
+        description="Aspiramos a ser el sistema mas efectivo para toma de decisiones estrategicas en la procura y consumo de energía"
       />
       <AboutSectionOne />
       <AboutSectionTwo />

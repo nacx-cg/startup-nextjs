@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="AI meets energy software"
-                paragraph="Nos enfocamos en aplicar tecnología de ultima generación para facilitar los procesos del mercado electrico"
+                title="Sustentabilidad energética"
+                paragraph="Generamos tecnología para lograr disponibilidad de información, análisis poderosos y decisiones precisas"
                 mb="44px"
               />
 
@@ -43,7 +43,7 @@ const AboutSectionOne = () => {
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Procesos coordinados" />
                     <List text="Generación de documentos regulatorios" />
-                    <List text="Información transparente" />
+                    <List text="Análisis transparentes" />
                   </div>
                 </div>
               </div>
